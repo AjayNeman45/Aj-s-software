@@ -13,7 +13,7 @@ while True:
     elif(("run"in p) or ("execute" in p) or ("open" in p) or ("launch" in p) or ("start" in p) or ("go to" in p) or ("into" in p) or ("starts" in p) or ("want" in p) or ("enter" in p))and(("browser" in p)or("chrome" in p)or("google" in p)or("search engine" in p)):
         if("not" in p)or("don't" in p)or("never" in p)or("dont" in p):
             
-             # if user wants dont wants open anything
+             # if user dont wants open chrome
             while True:
                 print()
                 print("ok! Enter yor choise")
