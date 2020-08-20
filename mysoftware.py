@@ -5,7 +5,7 @@ while True:
     p=input("Enter your requirement : ")
     p=p.lower()
     if(("exit" in p) or ("close" in p) or ("discard" in p) or ("egress" in p) or ("quite" in p) or ("out" in p) or ("escape" in p) 
-    or ("shut down" in p) or ("back" in p) or ("finish" in p) or ("finished" in p)or("end" in p)or("return to" in p) or("conclue" in p) or("stop" in p)  or("home" in p)):
+    or ("shut down" in p) or ("back" in p) or ("finish" in p) or ("finished" in p)or("end" in p)or("return to" in p) or("conclude" in p) or("stop" in p)  or("home" in p)):
         print("You are out")
         break
 
