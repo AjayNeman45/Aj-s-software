@@ -1,3 +1,5 @@
+import os
+
 while True:
     print()
     p=input("Enter your requirement : ")
@@ -10,35 +12,83 @@ while True:
     #program to run chrome
     elif(("run"in p) or ("execute" in p) or ("open" in p) or ("launch" in p) or ("start" in p) or ("go to" in p) or ("into" in p) or ("starts" in p) or ("want" in p) or ("enter" in p))and(("browser" in p)or("chrome" in p)or("google" in p)or("search engine" in p)):
         if("not" in p)or("don't" in p)or("never" in p)or("dont" in p):
-            s=int(input("press 1 to continue or press 0 to exit : "))
-            if(s==1):
+            
+             # if user wants dont wants open anything
+            while True:
+                print()
+                print("ok! Enter yor choise")
+                s=input("press 1 to continue or press 0 to exit : ")
+                if(s=="1"):
+                    break
+                elif(s=="0"):
+                    break
+                else:
+                    print("Invalid input: Try again")
+                    continue
+        
+            if(s=="1"):
                 continue
             else:
                 print("You are out")
                 break
-        print("opening chrome")
+        #opening chrome
+        else:
+            print("opening chrome")
+            os.system("chrome")
 
     #program to run notepad
     elif(("run"in p) or ("execute" in p) or ("open" in p) or ("launch" in p) or ("start" in p) or ("go to" in p) or ("into" in p) or ("starts" in p) or ("want" in p) or ("enter" in p))and(("editor" in p) or ("notepad" in p) or("type writer" in p)):
-        if("not " in p)or("don't" in p)or("never" in p)or("dont" in p):
-            s=int(input("press 1 to continue or press 0 to exit : "))
-            if(s==1):
+        if("don't" in p)or("never" in p)or("dont" in p):
+
+             # if user wants dont wants open anything
+            while True:
+                print()
+                print("ok! Enter yor choise")
+                s=input("press 1 to continue or press 0 to exit : ")
+                if(s=="1"):
+                    break
+                elif(s=="0"):
+                    break
+                else:
+                    print("Invalid input: Try again")
+                    continue
+
+            if(s=="1"):
                 continue
             else:
                 print("You are out")
                 break
-        print("opening editor")
+        # opening notepad    
+        else:
+            print("opening editor")
+            os.system("notepad")
 
     #program to run wmplayer
     elif(("run"in p) or ("execute" in p) or ("open" in p) or ("launch" in p) or ("start" in p) or ("go to" in p) or ("into" in p) or ("starts" in p) or ("want" in p)or("play" in p) or ("enter" in p)) and(("wmplayer" in p)or("player" in p)or("media player" in p)or("windows media player" in p)or("play" in p)or("song" in p) or("songs" in p) or ("videos" in p) or("video" in p)):
         if("not" in p)or("don't" in p)or("never" in p)or("dont" in p):
-            s=int(input("press 1 to continue or press 0 to exit : "))
-            if(s==1):
+
+            # if user wants dont wants open anything
+            while True:
+                print()
+                print("ok! Enter yor choise")
+                s=input("press 1 to continue or press 0 to exit : ")
+                if(s=="1"):
+                    break
+                elif(s=="0"):
+                    break
+                else:
+                    print("Invalid input: Try again")
+                    continue
+            if(s=="1"):
                 continue
             else:
                 print("You are out")
                 break
-        print("opening windows media player")
+
+        #opening wmplayer    
+        else:
+            print("opening windows media player")
+            os.system("wmplayer")
 
         
     else:
