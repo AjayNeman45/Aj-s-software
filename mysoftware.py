@@ -8,7 +8,7 @@ while True:
         print("You are out")
         break
         
-      # if user dont wants open anything  
+      # if user dont wants to open anything  
     elif(("don't" in p)or("never" in p)or("dont" in p)) and ( ("browser" in p)or("chrome" in p)or("google" in p)or("search engine" in p) or ("editor" in p) or ("notepad" in p) or("type writer" in p) or ("wmplayer" in p)or("player" in p)or("media player" in p)or("windows media player" in p)or("play" in p)or("song" in p) or("songs" in p) or ("videos" in p) or("video" in p)or ("window media player" in p)):
 
             
