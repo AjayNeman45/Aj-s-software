@@ -13,7 +13,7 @@ while True:
     elif(("run"in p) or ("execute" in p) or ("open" in p) or ("launch" in p) or ("start" in p) or ("go to" in p) or ("into" in p) or ("starts" in p) or ("want" in p) or ("enter" in p))and(("browser" in p)or("chrome" in p)or("google" in p)or("search engine" in p)):
         if("not" in p)or("don't" in p)or("never" in p)or("dont" in p):
             
-             # if user dont wants open chrome
+             # if user dont wants to open chrome
             while True:
                 print()
                 print("ok! Enter yor choise")
@@ -25,7 +25,7 @@ while True:
                 else:
                     print("Invalid input: Try again")
                     continue
-        
+            
             if(s=="1"):
                 continue
             else:
@@ -40,7 +40,7 @@ while True:
     elif(("run"in p) or ("execute" in p) or ("open" in p) or ("launch" in p) or ("start" in p) or ("go to" in p) or ("into" in p) or ("starts" in p) or ("want" in p) or ("enter" in p))and(("editor" in p) or ("notepad" in p) or("type writer" in p)):
         if("don't" in p)or("never" in p)or("dont" in p):
 
-             # if user wants dont wants open anything
+             # if user dont wants to open notepad
             while True:
                 print()
                 print("ok! Enter yor choise")
@@ -67,7 +67,7 @@ while True:
     elif(("run"in p) or ("execute" in p) or ("open" in p) or ("launch" in p) or ("start" in p) or ("go to" in p) or ("into" in p) or ("starts" in p) or ("want" in p)or("play" in p) or ("enter" in p)) and(("wmplayer" in p)or("player" in p)or("media player" in p)or("windows media player" in p)or("play" in p)or("song" in p) or("songs" in p) or ("videos" in p) or("video" in p)):
         if("not" in p)or("don't" in p)or("never" in p)or("dont" in p):
 
-            # if user wants dont wants open anything
+            # if user dont wants to open wmplayer
             while True:
                 print()
                 print("ok! Enter yor choise")
